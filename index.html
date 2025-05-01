@@ -160,7 +160,6 @@
 
 						// Create an array of typing text
 						const typingTexts = [
-						'Data Analyst  ',
 						'Cricket Enthusiast  ',
 						'Videographer   ',
 						];
@@ -171,7 +170,7 @@
 						for (let i = 0; i < text.length; i++) {
 							setTimeout(() => {
 							typingAnimationElement.textContent += text[i];
-							}, i * 150); // Increase the delay to slow down the typing animation
+							}, i * 100); // Increase the delay to slow down the typing animation
 						}
 
 						// Once the animation is complete, reset the text and start over
